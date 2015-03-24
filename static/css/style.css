@@ -1,0 +1,41 @@
+/*blue*/
+/*dark blue*/
+/*green*/
+/*brown*/
+/*very dark blue*/
+/*bluish gray*/
+/*light gray*/
+/* line 10, style.scss */
+body {
+  font-family: sans-serif;
+  font-weight: 100;
+  background: #dee1dd;
+  height: 100%;
+  margin: 0px;
+  padding: 54px 0px;
+  font-family: 'Signika Negative', Helvetica, sans-serif;
+  font-style: normal;
+}
+
+/* line 21, style.scss */
+.rounded-right {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+}
+
+/* line 26, style.scss */
+.rounded-right img {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* line 33, style.scss */
+.left-bar #profile {
+  position: absolute;
+  top: 0px;
+  left: -20%;
+  height: 100%;
+  z-index: -1;
+}

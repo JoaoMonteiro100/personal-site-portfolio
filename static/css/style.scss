@@ -1,0 +1,40 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #6D9197; /*blue*/
+$primary-accent: #2F575D; /*dark blue*/
+$secondary-color: #658B6F; /*green*/
+$terciary-color: #85794D; /*brown*/
+$dark-text-color: #28363D; /*very dark blue*/
+$medium-text-color: #99AEAD; /*bluish gray*/
+$light-text-color: #DEE1DD; /*light gray*/
+
+body {
+  font-family: sans-serif;
+  font-weight: 100;
+  background: $light-text-color;
+  height: 100%;
+  margin: 0px;
+  padding: 54px 0px;
+  font-family: 'Signika Negative', Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.rounded-right {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+}
+.rounded-right img {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.left-bar {
+  #profile {
+    position: absolute;
+	top: 0px;
+	left: -20%;
+	height: 100%;
+	z-index: -1;
+  }
+}
