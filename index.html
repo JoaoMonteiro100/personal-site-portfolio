@@ -1,17 +1,28 @@
-﻿<!DOCTYPE html>
-<html>
-  <head>
-    <title>João Monteiro</title>
-    <meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="static/css/style.css">
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Signika+Negative" />
-  </head>
-  <body>
-    <section class="left-bar">
-      <img id="profile" class="rounded-right" src="static\images\profile_pic.jpg"></img>
-    </section>
-	<section class="top">
-	  <h1>João Monteiro</h1>
-	</section>
-  </body>
-</html>
+﻿<head>
+	<script type="text/javascript"> 
+
+	// for a floating point number, pass true in the function call. for an integer, pass false. in this case, an integer is what you need 
+	function randomRange (minVal, maxVal, floatVal) { 
+
+	var randVal = minVal + (Math.random () * (maxVal - minVal)); 
+	return (!floatVal) ? Math.round (randVal) : randVal.toFixed (floatVal); 
+
+	} 
+
+	</script> 
+</head>
+
+<body>
+	<script type="text/javascript"> 
+
+	// setup pages to randomize 
+	var pages = new Array ("code.html", "warning.html", "rocket.html"); 
+
+	// generate random number (javascript doesn't allow you to start an array at 1 so we have to start at zero) 
+	var randomPage = randomRange (0, pages.length - 1, false); 
+
+	// redirect 
+	window.location.href = pages[randomPage]; 
+
+	</script>
+</body>

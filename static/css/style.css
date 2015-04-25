@@ -5,37 +5,156 @@
 /*very dark blue*/
 /*bluish gray*/
 /*light gray*/
-/* line 10, style.scss */
+/* line 13, style.scss */
 body {
-  font-family: sans-serif;
-  font-weight: 100;
-  background: #dee1dd;
+  background: #f8faf9;
   height: 100%;
   margin: 0px;
   padding: 54px 0px;
-  font-family: 'Signika Negative', Helvetica, sans-serif;
   font-style: normal;
+  font-size: 62,5%;
 }
 
-/* line 21, style.scss */
+/* line 22, style.scss */
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.3em;
+  font-weight: 300;
+  color: #1abc9c;
+}
+
+/* line 29, style.scss */
+h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.3em;
+  font-weight: 300;
+  color: #f65034;
+}
+
+/* line 36, style.scss */
+h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.3em;
+  font-weight: 300;
+  color: #f1c40f;
+}
+
+/* line 43, style.scss */
+p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/* line 49, style.scss */
+p small {
+  font-size: 0.7em;
+}
+
+/* line 53, style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 57, style.scss */
 .rounded-right {
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
   overflow: hidden;
 }
 
-/* line 26, style.scss */
+/* line 63, style.scss */
 .rounded-right img {
   display: block;
   min-width: 100%;
   min-height: 100%;
 }
 
-/* line 33, style.scss */
-.left-bar #profile {
+/* line 69, style.scss */
+.rounded {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 250px;
+  margin-left: -125px;
   position: absolute;
+  left: 50%;
+}
+
+/* line 78, style.scss */
+.center-content {
+  position: relative;
+  text-align: center;
+  margin: 15%;
+  margin-top: 0px;
+}
+
+/* line 85, style.scss */
+.center-content h1, h2, h3, p {
+  position: relative;
+  top: 300px;
+}
+
+/* line 90, style.scss */
+.social-media {
+  position: relative;
+  top: 350px;
+}
+
+/* line 95, style.scss */
+.social-media img {
+  height: 70px;
+}
+
+/* line 99, style.scss */
+.linkedin_off, #linkedin:hover .linkedin_on {
+  display: none;
+}
+
+/* line 103, style.scss */
+.linkedin_on, #linkedin:hover .linkedin_off {
+  display: inline;
+}
+
+/* line 107, style.scss */
+.github_off, #github:hover .github_on {
+  display: none;
+}
+
+/* line 111, style.scss */
+.github_on, #github:hover .github_off {
+  display: inline;
+}
+
+/* line 115, style.scss */
+.mail_off, #mail:hover .mail_on {
+  display: none;
+}
+
+/* line 119, style.scss */
+.mail_on, #mail:hover .mail_off {
+  display: inline;
+}
+
+/* line 123, style.scss */
+.footnote {
+  position: relative;
+  top: 100px;
+  text-align: left;
+  margin-left: -15%;
+}
+
+/* line 131, style.scss */
+.left-bar #profile {
+  position: fixed;
   top: 0px;
   left: -20%;
+  bottom: 0px;
   height: 100%;
   z-index: -1;
+}
+
+/* line 142, style.scss */
+.top-bar h1 {
+  position: absolute;
+  overflow: auto;
 }

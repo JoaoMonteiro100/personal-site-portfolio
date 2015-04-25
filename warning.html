@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<meta name="João Monteiro" content="">
+	<title>João Monteiro</title>
+	<link rel="shortcut icon" href="static/images/favicon3.ico">
+  </head>
+ 
+ <script language="javascript" type="text/javascript">
+	pages=new Array()
+	pages[1]="code.html"
+	pages[2]="rocket.html"
+
+	maxPages=2
+
+	newPage= function (){return Math.floor(Math.random()*maxPages)+1}
+
+	function switchEm()
+	{
+	window.location.href=pages[newPage()]
+	}
+</script>
+ 
+  <body onLoad="setTimeout('switchEm()',30000);">
+	<section class="center-content">
+		<div id="content-area">	
+			<img class="rounded" src="static\images\warning.png" />
+			<h3>Warning! You're trying to see the future.</h3>
+			<p>This page doesn't exist yet, but don't worry, I'm working hard on it! Meanwhile, if you want to know more about me and my work, you can marvel at my curriculum, peek at my repository, or e-mail me.</p>
+		</div>
+		
+		<section class="social-media">
+			<a target="_blank" href="https://pt.linkedin.com/in/joaomonteiro100" id="linkedin">
+				<img class="linkedin_off" src="static\images\linkedin.png" alt="LinkedIn"/>
+				<img class="linkedin_on" src="static\images\linkedin_b&w.png" alt="LinkedIn"/>
+			</a>
+			<a target="_blank" href="https://github.com/JoaoMonteiro100" id="github">
+				<img class="github_off" src="static\images\github.png" alt="GitHub"/>
+				<img class="github_on" src="static\images\github_b&w.png" alt="GitHub"/>
+			</a>
+			<a target="_top" href="mailto:joaomiguelmonteiro@gmail.com" id="mail">
+				<img class="mail_off" src="static\images\mail.png" alt="Mail"/>
+				<img class="mail_on" src="static\images\mail_b&w.png" alt="Mail"/>
+			</a>
+		</section>
+	
+		<section class="footnote">
+			<p><small>&copy; 2015 João Monteiro</small></p>
+		</section>
+		
+	</section>
+  </body>
+</html>

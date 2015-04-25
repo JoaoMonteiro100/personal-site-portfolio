@@ -5,17 +5,53 @@ $secondary-color: #658B6F; /*green*/
 $terciary-color: #85794D; /*brown*/
 $dark-text-color: #28363D; /*very dark blue*/
 $medium-text-color: #99AEAD; /*bluish gray*/
-$light-text-color: #DEE1DD; /*light gray*/
+$light-text-color: #F8FAF9; /*light gray*/
+$teal: #1ABC9C;
+$red: #F65034;
+$yellow: #F1C40F;
 
 body {
-  font-family: sans-serif;
-  font-weight: 100;
   background: $light-text-color;
   height: 100%;
   margin: 0px;
   padding: 54px 0px;
-  font-family: 'Signika Negative', Helvetica, sans-serif;
   font-style: normal;
+  font-size: 62,5%;
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.3em;
+  font-weight: 300;
+  color: $teal;
+}
+
+h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.3em;
+  font-weight: 300;
+  color: $red;
+}
+
+h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.3em;
+  font-weight: 300;
+  color: $yellow;
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+p small{
+  font-size: 0.7em;
+}
+
+a {
+  text-decoration: none;
 }
 
 .rounded-right {
@@ -23,18 +59,88 @@ body {
   border-bottom-right-radius: 50%;
   overflow: hidden;
 }
+
 .rounded-right img {
   display: block;
   min-width: 100%;
   min-height: 100%;
 }
 
+.rounded {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 250px;
+  margin-left: -125px;
+  position: absolute;
+  left: 50%;
+}
+
+.center-content {
+  position: relative;
+  text-align: center;
+  margin: 15%;
+  margin-top: 0px;
+}
+
+.center-content  h1, h2, h3, p {
+  position: relative;
+  top: 300px;
+}
+
+.social-media {
+  position: relative;
+  top: 350px;
+}
+
+.social-media img {
+  height: 70px;
+}
+
+.linkedin_off, #linkedin:hover .linkedin_on{
+   display:none;
+}
+
+.linkedin_on, #linkedin:hover .linkedin_off{
+   display:inline;
+}
+
+.github_off, #github:hover .github_on{
+   display:none;
+}
+
+.github_on, #github:hover .github_off{
+   display:inline;
+}
+
+.mail_off, #mail:hover .mail_on{
+   display:none;
+}
+
+.mail_on, #mail:hover .mail_off{
+   display:inline;
+}
+
+.footnote {
+  position: relative;
+  top: 100px;
+  text-align: left;
+  margin-left: -15%;
+}
+
 .left-bar {
   #profile {
-    position: absolute;
+    position: fixed;
 	top: 0px;
 	left: -20%;
+	bottom: 0px;
 	height: 100%;
 	z-index: -1;
+  }
+}
+
+.top-bar {
+  h1 {
+    position:absolute;
+    overflow:auto;
   }
 }
