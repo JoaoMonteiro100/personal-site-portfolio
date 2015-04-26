@@ -1,11 +1,4 @@
 $font-stack:    Helvetica, sans-serif;
-$primary-color: #6D9197; /*blue*/
-$primary-accent: #2F575D; /*dark blue*/
-$secondary-color: #658B6F; /*green*/
-$terciary-color: #85794D; /*brown*/
-$dark-text-color: #28363D; /*very dark blue*/
-$medium-text-color: #99AEAD; /*bluish gray*/
-$light-text-color: #F8FAF9; /*light gray*/
 $teal: #1ABC9C;
 $red: #F65034;
 $yellow: #F1C40F;
@@ -54,18 +47,6 @@ a {
   text-decoration: none;
 }
 
-.rounded-right {
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-  overflow: hidden;
-}
-
-.rounded-right img {
-  display: block;
-  min-width: 100%;
-  min-height: 100%;
-}
-
 .rounded {
   border-radius: 50%;
   overflow: hidden;
@@ -73,11 +54,6 @@ a {
   margin-left: -125px;
   position: absolute;
   left: 50%;
-}
-
-.rounded-small img{
-  border-radius: 50%;
-  overflow: hidden;
 }
 
 .center-content {
@@ -162,22 +138,4 @@ a {
   top: 100px;
   text-align: left;
   margin-left: -15%;
-}
-
-.left-bar {
-  #profile {
-    position: fixed;
-	top: 0px;
-	left: -20%;
-	bottom: 0px;
-	height: 100%;
-	z-index: -1;
-  }
-}
-
-.top-bar {
-  h1 {
-    position:absolute;
-    overflow:auto;
-  }
 }
