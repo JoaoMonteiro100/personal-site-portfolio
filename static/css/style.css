@@ -81,6 +81,12 @@ a {
 }
 
 /* line 78, style.scss */
+.rounded-small img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* line 83, style.scss */
 .center-content {
   position: relative;
   text-align: center;
@@ -88,93 +94,93 @@ a {
   margin-top: 0px;
 }
 
-/* line 85, style.scss */
+/* line 90, style.scss */
 .center-content h1, h2, h3, p {
   position: relative;
   top: 300px;
 }
 
-/* line 90, style.scss */
+/* line 95, style.scss */
 .social-media {
   position: relative;
   top: 350px;
 }
 
-/* line 95, style.scss */
+/* line 100, style.scss */
 .social-media img {
   height: 70px;
 }
 
-/* line 99, style.scss */
+/* line 104, style.scss */
 .linkedin_off, #linkedin:hover .linkedin_on {
   display: none;
 }
 
-/* line 103, style.scss */
+/* line 108, style.scss */
 .linkedin_on, #linkedin:hover .linkedin_off {
   display: inline;
 }
 
-/* line 107, style.scss */
+/* line 112, style.scss */
 .github_off, #github:hover .github_on {
   display: none;
 }
 
-/* line 111, style.scss */
+/* line 116, style.scss */
 .github_on, #github:hover .github_off {
   display: inline;
 }
 
-/* line 115, style.scss */
+/* line 120, style.scss */
 .mail_off, #mail:hover .mail_on {
   display: none;
 }
 
-/* line 119, style.scss */
+/* line 124, style.scss */
 .mail_on, #mail:hover .mail_off {
   display: inline;
 }
 
-/* line 123, style.scss */
+/* line 128, style.scss */
 .arrows img {
   height: 40px;
 }
 
-/* line 127, style.scss */
+/* line 132, style.scss */
 .arrows #left {
   position: fixed;
   top: 50%;
   left: 3%;
 }
 
-/* line 133, style.scss */
+/* line 138, style.scss */
 .arrows #right {
   position: fixed;
   top: 50%;
   right: 3%;
 }
 
-/* line 139, style.scss */
+/* line 144, style.scss */
 .left_off, #left:hover .left_on {
   display: none;
 }
 
-/* line 143, style.scss */
+/* line 148, style.scss */
 .left_on, #left:hover .left_off {
   display: inline;
 }
 
-/* line 147, style.scss */
+/* line 152, style.scss */
 .right_off, #right:hover .right_on {
   display: none;
 }
 
-/* line 151, style.scss */
+/* line 156, style.scss */
 .right_on, #right:hover .right_off {
   display: inline;
 }
 
-/* line 155, style.scss */
+/* line 160, style.scss */
 .footnote {
   position: relative;
   top: 100px;
@@ -182,7 +188,7 @@ a {
   margin-left: -15%;
 }
 
-/* line 163, style.scss */
+/* line 168, style.scss */
 .left-bar #profile {
   position: fixed;
   top: 0px;
@@ -192,7 +198,7 @@ a {
   z-index: -1;
 }
 
-/* line 174, style.scss */
+/* line 179, style.scss */
 .top-bar h1 {
   position: absolute;
   overflow: auto;

@@ -75,6 +75,11 @@ a {
   left: 50%;
 }
 
+.rounded-small img{
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .center-content {
   position: relative;
   text-align: center;
