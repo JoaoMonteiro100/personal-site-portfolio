@@ -136,6 +136,45 @@ a {
 }
 
 /* line 123, style.scss */
+.arrows img {
+  height: 40px;
+}
+
+/* line 127, style.scss */
+.arrows #left {
+  position: fixed;
+  top: 50%;
+  left: 3%;
+}
+
+/* line 133, style.scss */
+.arrows #right {
+  position: fixed;
+  top: 50%;
+  right: 3%;
+}
+
+/* line 139, style.scss */
+.left_off, #left:hover .left_on {
+  display: none;
+}
+
+/* line 143, style.scss */
+.left_on, #left:hover .left_off {
+  display: inline;
+}
+
+/* line 147, style.scss */
+.right_off, #right:hover .right_on {
+  display: none;
+}
+
+/* line 151, style.scss */
+.right_on, #right:hover .right_off {
+  display: inline;
+}
+
+/* line 155, style.scss */
 .footnote {
   position: relative;
   top: 100px;
@@ -143,7 +182,7 @@ a {
   margin-left: -15%;
 }
 
-/* line 131, style.scss */
+/* line 163, style.scss */
 .left-bar #profile {
   position: fixed;
   top: 0px;
@@ -153,7 +192,7 @@ a {
   z-index: -1;
 }
 
-/* line 142, style.scss */
+/* line 174, style.scss */
 .top-bar h1 {
   position: absolute;
   overflow: auto;

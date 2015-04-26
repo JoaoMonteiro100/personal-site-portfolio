@@ -120,6 +120,38 @@ a {
    display:inline;
 }
 
+.arrows img{
+  height: 40px;
+}
+
+.arrows #left {
+  position: fixed;
+  top: 50%;
+  left: 3%;
+}
+
+.arrows #right {
+  position: fixed;
+  top: 50%;
+  right: 3%;
+}
+
+.left_off, #left:hover .left_on{
+   display:none;
+}
+
+.left_on, #left:hover .left_off{
+   display:inline;
+}
+
+.right_off, #right:hover .right_on{
+   display:none;
+}
+
+.right_on, #right:hover .right_off{
+   display:inline;
+}
+
 .footnote {
   position: relative;
   top: 100px;
