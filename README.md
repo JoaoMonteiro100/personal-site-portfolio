@@ -1,3 +1,4 @@
-# personal-website
+# responsive-coming-soon-page
 
-This is the soon-to-be personal website for the soon-to-be informatics engineer João Monteiro. It will have his personal information, from CV to certificates, portfolio and interests. It will be available in both English and Portuguese in an initial release.
+This is a very small website meant to be used while the actual site is being developed. It lands you in one of three possible pages (at random), all of a lighthearted nature, containing "coming soon"-like text.
+You can see the other pages by clicking the left and right arrows. It features links for LinkedIn, GitHub and mail.
